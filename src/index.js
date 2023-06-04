@@ -18,6 +18,8 @@ app.use(cors());
 
 //routes
 app.use('/registro',require('./routes/registro'));
+app.use('/recurso',require('./routes/recurso'));
+app.use('/balance',require('./routes/balance'));
 
 
 //server is listening
